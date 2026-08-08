@@ -4,7 +4,7 @@ const app: Express = express();
 
 app.get('/ping',(_ : Request,res : Response)=>{
         return res.json({
-            message:'pong'
+        message:'pong'
         });
 });
 
